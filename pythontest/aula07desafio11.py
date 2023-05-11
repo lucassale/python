@@ -1,0 +1,6 @@
+print('AJUDANTE DE PINTOR')
+a = float(input('Qual a altura da sua parede: '))
+l = float(input('Qual a largura da sua parede: '))
+ar = ((a * l))
+tm = (ar / 2)
+print('Com {}m² de área, você precisará de {} litros de tinta'.format(ar, tm))
